@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+.env
+media/
+staticfiles/
+backups/
+.coverage
+
+# Secrets, métadonnées locales et préparation de publication
+.env.*
+!.env.example
+.agents/
+.codex/
+.aws/
+.publication/
+*.log
+.DS_Store
+
+# Rapports locaux de recette (normalement générés sous /tmp)
+/pharmagest-ux-report-*/
+/pharmagest-manual-report-*/
+/pharmagest-cashier-report-*/
+/pharmagest-pdf-report-*/
+/pharmagest-role-report-*/
+/pharmagest-semantic-report-*/
+/pharmagest-human-timing-report-*/
